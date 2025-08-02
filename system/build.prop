@@ -1,0 +1,13 @@
+# build.prop for VMOS Android 10 with Root
+ro.build.id=QP1A.190711.019
+ro.build.version.incremental=eng.root.2025
+ro.build.version.sdk=29
+ro.build.version.release=10
+ro.build.version.security_patch=2099-12-31
+ro.product.model=VMOS_Rooted
+ro.product.manufacturer=VMOS
+ro.product.name=vmos_android10_root
+ro.debuggable=1
+persist.service.adb.enable=1
+persist.sys.root_access=3
+persist.sys.usb.config=adb
